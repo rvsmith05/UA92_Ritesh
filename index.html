@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #d4c7b4;
+          
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: #450201;
+        }
+
+        .navbar a {
+          float: left;
+          display: flex;
+          justify-content: center;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: #b29d8d;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        h1,
+        h2 {
+            text-align: center; 
+        }
+
+        img.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px; 
+        }
+
+        p {
+            
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        body.students {
+            background-color: #d4c7b4; 
+        }
+
+        body.parents {
+            background-color: #d4c7b4; 
+        }
+
+        body.teachers {
+            background-color: #d4c7b4; 
+        }
+
+        body.classes {
+            background-color: #d4c7b4; 
+        }
+
+        .Schoolweb {
+            text-decoration-line: black;
+
+        }
+
+    
+
+
+    
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">View
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="http://localhost/testfile/students.php">Student</a>
+                    <a href="http://localhost/testfile/parents.php">Parent</a>
+                    <a href="http://localhost/testfile/teachers.php">Teacher</a>
+                    <a href="http://localhost/testfile/classes.php">Classe</a>
+                    <a herf="">Library</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Add
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="AddStudent.html">Student</a>
+                    <a href="addParent.html">Parent</a>
+                    <a href="addteacher.html">Teacher</a>
+                    <a href="addClass.html">Class</a>
+                </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Delete
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="deletestudent.html">Student</a>
+                  <a href="deleteparent.html">Parent</a>
+                  <a href="deleteteacher.html">Teacher</a>
+                  <a href="deleteclass.html">Class</a>
+              </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Update
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="updatestudent.html">Student</a>
+                <a href="updateparent.html">Parent</a>
+                <a href="updateteacher.html">Teacher</a>
+                <a href="updateclass.html">Class</a>
+            </div>
+        </div>
+            <a href="Contact.html">Contact Us</a>
+            
+        </div>
+       
+        <div class="SchoolWeb">
+            <p>Education is power</p>
+        </div>
+        
+
+        <img src="Blogo.png.png" alt="School Photo" class="center" width="300">
+
+        
+        <h1>Welcome to ST Alphanous RC Primary School</h1>
+        <p>This is a school where our children enjoy their learning, the staff work hard to establish a caring Christian community and everyone is valued equally.</p>
+
+        <h2>History of the school</h2>
+        <p>St. Alphonsus is a happy school and we believe we achieve this by providing a safe and secure environment in which our children grow and learn with confidence..</p>
+    </body>
+</html>
